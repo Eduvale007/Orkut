@@ -69,3 +69,74 @@ input{
     display: flex;
     margin: 0 5px;
 }
+
+.save{
+    font-size: 20px;
+}
+.area_reg{
+    display: block;
+    padding: 10px;
+}
+
+.area_reg h3{
+    color: #B35CAD;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.button_reg{
+    display: block;
+    width: 50px;
+    padding: 0.5rem;
+    padding-bottom: 10px;
+    background-color:#ccc ;
+    padding: 0.2rem;
+    border:1px solid rgb(77, 76, 76);
+    cursor: pointer;
+    
+}
+
+.recorver{
+    color: rgb(0, 81, 255);
+    padding: 10px;
+    display: block;
+    text-decoration: underline;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.area_ff{
+    text-align: center;
+    padding: 15px;
+}
+
+.area_ff p{
+    padding: 5px;
+}
+
+.login_on{
+    color: rgb(0, 81, 255);
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.privacy{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.privacy_links{
+    display: flex;
+    gap: 4rem;
+    background-color: #BDCDEA;
+    color: #000000;
+    padding: 5px;
+}
+
+.privacy_links a{
+    text-decoration: none;
+    color: rgb(0, 81, 255);
+    text-decoration: underline;
+}
