@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:rgb(229, 62, 118);
+}
+.main__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.row{
+    outline: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.row__aboutUs{
+    outline: 1PX solid red;
+    padding: 10rem;
+}
+
+.row__aboutUs h1{
+    text-align: center;
+    text-transform: uppercase;
+    color:var(--primary-color);
+    font-size: 50px;
+    padding: 1.5rem;
+}
+
+.row__aboutUs p{
+    text-align: center;
+}
+
+.destaque{
+    color:var(--primary-color);
+    font-weight: bold;
+}
+
+legend{
+    text-align: center;
+}
+
+fieldset{
+    border: none;
+    padding: 2em;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 5px;
+}
+
+input{
+    padding: 10px;
+    margin: 5px;
+}
+
+
+
+.left{
+    display: flex;
+    margin: 0 5px;
+}
